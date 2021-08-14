@@ -1,0 +1,45 @@
+.card{
+    padding:2rem 4rem;
+    border:1px solid lightgray;
+    width:35rem;
+    height:auto;
+    border-radius:2rem;
+}
+
+
+h2,h3,p,h5{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+font-size: 3rem;
+}
+
+h3{
+font-size: 2rem;
+}
+h5{
+    font-size:3rem;
+}
+p{
+    
+    font-size: 1.2rem;
+    color:grey
+}
+
+.icons{
+ font-size:4rem;
+ color:blue;
+}
+
+.card:hover{
+    transform: scaleX(2rem);
+    transition: 2s ease;
+}
+.icons-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

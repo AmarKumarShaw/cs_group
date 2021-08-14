@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LandingPage from './component/LandingPage';
+import Whyus from './component/Whyus';
+import Footer from './component/Footer';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <LandingPage />
+    <Whyus />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

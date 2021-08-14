@@ -1,0 +1,56 @@
+html{font-size: 62.5%}
+
+
+.main-body{
+    height:88vh;
+    width:100%;
+    background:url('/src/component/images/main4.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;}
+
+
+.hero-text{
+    text-align: center;
+    margin-top: 16rem;
+    color:#fff;
+    font-size: 4rem;
+}
+
+.hero-text span{
+    font-size: 5rem;
+}
+.hero-image{
+    height:50rem;
+    width: 50rem;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text a{
+    padding:1rem 2rem;
+    border-radius: 2rem;
+    background: white;
+    color:dodgerblue;
+    font-size:1.5rem;
+    transition: 0.3s ease-in;
+}
+.main-text a:hover{
+    background: dodgerblue;
+    color:white;
+
+}
+.hero-btn{
+    margin-top: 2rem;
+}
+
+
+/* IMages Css */
+
+.hero-img-div{
+    margin-top: 5rem;
+}

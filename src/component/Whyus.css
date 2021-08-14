@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+.why {
+  height: 100vh;
+  width: 100%;
+  background: url("/src/component/images/main5.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-head-text {
+  color: #fff;
+  text-decoration: underline;
+  padding-top:3rem;
+}
+
+.head-text{
+    font-size:4rem;
+}
+.company-img {
+  height: 45rem;
+  width: 45rem;
+}
+.why-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.why-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features{
+    display: flex;
+    padding: 2rem 0;
+}
+
+
+.features h2 ,.features i{
+        color:#fff;
+}
+.features i{
+    font-size:3rem;
+}
+.features .fas{
+    padding-right:1rem;
+}
